@@ -12,9 +12,9 @@ Juego de mesa abstracto para dos jugadores.
 
 ## ❔ ¿Qúe es?
 
-El linja es un juego de mesa abstracto para dos jugadores que se basa en obtener el máximo número de puntos posibles moviendo las piezas de cada jugador lo más cerca del borde extremo del contrincante. Una explicación más detallada se puede encontrar en `./markdown/help.md`.
+El linja es un juego de mesa abstracto para dos jugadores que se basa en obtener el máximo número de puntos posibles moviendo las piezas de cada jugador lo más cerca del borde extremo del contrincante. Una explicación más detallada se puede encontrar [aquí](https://github.com/dtx1007/linja-py/blob/main/markdown/help.md).
 
-Este proyecto fue desarrollado como entrega final para una asignatura de introducción a la Inteligencia Artificial y al uso de modelos y algoritmos relacionados con esta. No se plantea continuar con el proyecto en un futuro proximo puesto que su propósito fue meramente lectivo, pero, se dan ciertas pautas de cómo podría continuarse y aspectos a mejorar en la sección de 🔧 [Posibles mejoras](#-posibles-mejoras).
+Este proyecto fue desarrollado como entrega final para una asignatura de introducción a la Inteligencia Artificial y al uso de modelos y algoritmos relacionados con esta. No se plantea continuar con el proyecto en un futuro proximo puesto que su propósito fue meramente para el aprendizaje, pero, se dan ciertas pautas de cómo podría continuarse y aspectos a mejorar en la sección de 🔧 [Posibles mejoras](#-posibles-mejoras).
 
 El proyecto está hecho en `Python` y el enfoque principal fue implementar un juego de mesa para el cual se pudiera jugar contra el ordenador. El proyecto ofrece las siguientes características:
 
@@ -70,7 +70,7 @@ poetry run python -m linja_py
 
 ## 🧩 ¿Cómo jugar?
 
-Las reglas pueden verse dentro de la ayuda de la aplicación o, en su defecto, se encuentran escritas en `./markdown/help.md`.
+Las reglas pueden verse dentro de la ayuda de la aplicación o, en su defecto, se encuentran escritas [aquí](https://github.com/dtx1007/linja-py/blob/main/markdown/help.md).
 
 ## 📜 Licencia
 
