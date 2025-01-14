@@ -12,7 +12,7 @@ Guía de ayuda para el juego del Linja.
 
 Diagrama del tablero del Linja.
 
-```txt
+```
         0   1   2   3   4   5
       |---|---|---|---|---|---|
     0 | o | o | o | o | o | o |
@@ -50,7 +50,7 @@ La partida acaba cuando las piezas de ambos jugadores quedan completamente **sep
 
 Ejemplo de tablero finalizado:
 
-```txt
+```
  Fin de partida                            Puntos
                 |---|---|---|---|---|---|        
            *    | x | x | x | x | x | x |    +5  *
@@ -85,7 +85,7 @@ Cada movimiento es en sí, es un par de movimientos. El primero consta en mover 
 
 Ejemplo de un par de movimientos:
 
-```txt
+```
             |---------------------- Primer movimiento (1 fila siempre)
             |
             v 
@@ -113,7 +113,7 @@ Hay dos excepciones a los movimientos:
 
 - Si en su primer movimiento, un jugador mueve a una fila sin fichas, este **pierde su segundo movimiento** (sería un movimiento de 0 filas).
 
-```txt
+```
             |---------------------- Primer movimiento (1 fila siempre)
             |
             v 
@@ -128,7 +128,7 @@ Hay dos excepciones a los movimientos:
 
 - Si en su segundo movimiento un jugador mueve a una fila sin fichas, este **gana un turno adicional** completo, es decir, vuelve a hacer su primer y segundo movimiento una vez más. Esto solo puede ocurrir una vez.
 
-```txt
+```
             |---------------------- Primer movimiento (1 fila siempre)
             |
             v 
@@ -183,7 +183,7 @@ Hay dos excepciones a los movimientos:
 
 El máximo número de fichas en una fila intermedia es de 6, mientras que, en los extremos este es ilimitado. No es posible mover a una fila ocupada, a menos que sean las de los extremos, el jugador debe saltar esa fila para seguir moviendo.
 
-```txt
+```
       |---|---|---|---|---|---|
    0  | x | x | x | x | x | x | [x] x 7 < Al ser un extremo del tablero
       |---|---|---|---|---|---|           puede haber un número ilimitado
